@@ -1,0 +1,57 @@
+{
+  "name": "@dsh-community/dsh-plugin-update-all",
+  "version": "0.1.0",
+  "description": "Adds an \"Update All\" tab to the DeepSeek Harness Plugins page: check every installed plugin for a newer version in one pass and update them all with one click, including Git-pinned plugins, which are followed to the upstream HEAD commit automatically.",
+  "icon": "./icon.svg",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "icon.svg",
+    "locale/*.json",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "update",
+    "marketplace"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TerebiSAMA/dsh-plugin-update-all.git"
+  },
+  "homepage": "https://github.com/TerebiSAMA/dsh-plugin-update-all",
+  "bugs": {
+    "url": "https://github.com/TerebiSAMA/dsh-plugin-update-all/issues"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-connection",
+        "@deepseek-ai/dsh-api-remotes/client"
+      ]
+    }
+  },
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0"
+  }
+}

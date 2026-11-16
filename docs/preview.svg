@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="640" height="360" role="img" aria-label="Schematic of the Update All tab in the DeepSeek Harness Plugins page">
+  <rect width="640" height="360" fill="#f7f8fa"/>
+  <text x="28" y="44" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="19" fill="#1c1f24">插件</text>
+  <text x="28" y="66" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6b7280">安装、启用和配置插件</text>
+
+  <rect x="28" y="84" width="330" height="34" rx="9" fill="#eceef2"/>
+  <rect x="36" y="90" width="76" height="22" rx="7" fill="#ffffff"/>
+  <text x="52" y="106" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#3f4450">已安装</text>
+  <text x="126" y="106" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6b7280">插件市场</text>
+  <text x="196" y="106" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6b7280">发现</text>
+  <rect x="240" y="90" width="86" height="22" rx="7" fill="#ffffff" stroke="#c9ced8"/>
+  <text x="252" y="106" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#1c1f24">一键更新</text>
+
+  <rect x="28" y="136" width="104" height="32" rx="8" fill="#1c1f24"/>
+  <text x="46" y="157" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#ffffff">检查更新</text>
+  <rect x="142" y="136" width="88" height="32" rx="8" fill="#ffffff" stroke="#c9ced8"/>
+  <text x="160" y="157" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#9aa1ad">全部更新</text>
+  <text x="244" y="157" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12" fill="#6b7280">2 个插件可以更新</text>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="12">
+    <rect x="28" y="184" width="584" height="52" rx="10" fill="#ffffff" stroke="#e2e5ea"/>
+    <text x="44" y="205" fill="#1c1f24" font-weight="600">@openviking/dsh-memory-plugin</text>
+    <text x="44" y="223" fill="#6b7280">registry</text>
+    <text x="380" y="213" fill="#6b7280">0.5.36</text>
+    <text x="432" y="213" fill="#9aa1ad">→</text>
+    <text x="452" y="213" fill="#1c1f24">0.5.37</text>
+    <rect x="516" y="199" width="80" height="22" rx="11" fill="#eef4ff"/>
+    <text x="528" y="214" fill="#2b6cb0">可更新</text>
+
+    <rect x="28" y="244" width="584" height="52" rx="10" fill="#ffffff" stroke="#e2e5ea"/>
+    <text x="44" y="265" fill="#1c1f24" font-weight="600">@openviking/dsh-openviking-settings</text>
+    <text x="44" y="283" fill="#6b7280">git · 7af6375</text>
+    <text x="380" y="273" fill="#6b7280">0.1.0</text>
+    <text x="432" y="273" fill="#9aa1ad">→</text>
+    <text x="452" y="273" fill="#1c1f24">0.1.0</text>
+    <rect x="516" y="259" width="80" height="22" rx="11" fill="#eaf7ee"/>
+    <text x="528" y="274" fill="#2f855a">已是最新</text>
+  </g>
+
+  <text x="28" y="330" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" fill="#9aa1ad">部分更新需要重启 DSH 后才会生效。</text>
+</svg>

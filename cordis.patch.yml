@@ -1,0 +1,5 @@
+- insert:
+    # 宿主半：浏览器半（exports["./client"]）在【设置 → 插件】里注册一个「一键更新」标签页，
+    # 它调用官方 pluginManager 远程服务检查并批量升级已装插件。
+    - id: plugin-update-all
+      name: '@dsh-community/dsh-plugin-update-all'

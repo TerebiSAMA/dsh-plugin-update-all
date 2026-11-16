@@ -1,0 +1,14 @@
+{
+  "name": "dsh-plugin-update-all-tools",
+  "private": true,
+  "type": "module",
+  "description": "构建工具：把 src/client.tsx 打包成 DSH 客户端 bundle（不参与插件安装）",
+  "scripts": {
+    "build": "node build-client.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}

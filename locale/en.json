@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Update All",
+    "description": "Adds an \"Update All\" tab to the DeepSeek Harness Plugins page: check every installed plugin for a newer version in one pass and update them all with one click. Versions are read from the package registry, so plugins the market index does not list are covered too; Git-pinned plugins follow the upstream HEAD commit automatically."
+  }
+}
