@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "title": {
+    "en": "DSH Plugin Update Tools",
+    "zh": "DSH 插件更新工具"
+  },
+  "description": {
+    "en": "Community index with the one-click plugin update tab for DeepSeek Harness.",
+    "zh": "社区插件索引，收录面向 DeepSeek Harness 的一键插件更新标签页。"
+  },
+  "metadata": {
+    "categories": {
+      "tools": {
+        "title": {
+          "en": "Tools",
+          "zh": "工具"
+        }
+      }
+    },
+    "labels": {
+      "batch-update": {
+        "title": {
+          "en": "Batch update",
+          "zh": "批量更新"
+        }
+      }
+    },
+    "sortKeys": {}
+  },
+  "plugins": [
+    {
+      "name": "@dsh-community/dsh-plugin-update-all",
+      "title": {
+        "en": "Update All",
+        "zh": "一键更新"
+      },
+      "description": {
+        "en": "Adds an \"Update All\" tab to the DSH Plugins page: check every installed plugin for a newer version in one pass and update them all with one click, including Git-pinned plugins, which are followed to the upstream HEAD commit automatically.",
+        "zh": "在 DSH【设置 → 插件】里新增「一键更新」标签页：一次检查所有已装插件有没有新版本，一键全部升级；Git 钉在提交上的插件会自动跟进上游最新提交。"
+      },
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjMyIiBoZWlnaHQ9IjMyIiByb2xlPSJpbWciIGFyaWEtbGFiZWw9IlVwZGF0ZSBhbGwgcGx1Z2lucyI+CiAgPGNpcmNsZSBjeD0iMTYiIGN5PSIxNiIgcj0iMTMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNCODJGNiIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWRhc2hhcnJheT0iNTIgMTQiLz4KICA8cGF0aCBkPSJNMTYgOC41IEwxNiAxNiBMMjEgMTkiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNCODJGNiIgc3Ryb2tlLXdpZHRoPSIyLjQiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgogIDxjaXJjbGUgY3g9IjE2IiBjeT0iMTYiIHI9IjIuMiIgZmlsbD0iIzNCODJGNiIvPgo8L3N2Zz4K",
+      "author": "TerebiSAMA",
+      "homepage": "https://github.com/TerebiSAMA/dsh-plugin-update-all",
+      "repository": {
+        "url": "https://github.com/TerebiSAMA/dsh-plugin-update-all"
+      },
+      "metadata": {
+        "category": "tools",
+        "keywords": [
+          "dsh",
+          "dsh-plugin",
+          "plugin",
+          "update"
+        ],
+        "labels": [
+          "batch-update"
+        ],
+        "sortKeys": {}
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794820971,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/TerebiSAMA/dsh-plugin-update-all.git",
+            "commit": "ce554f74ed5a6593d241f2f5fe5a3df730bbb116"
+          },
+          "engines": {}
+        }
+      ]
+    }
+  ]
+}
